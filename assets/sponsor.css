@@ -5,12 +5,14 @@
 .sponsor-panel .sponsor-copy{font-size:.82rem;line-height:1.6;margin:0;max-width:560px;color:#f0e7d9}
 .sponsor-actions{flex:0 0 auto;text-align:center;max-width:100%}
 .sponsor-link{display:inline-flex;align-items:center;justify-content:center;gap:16px;background:#f3d5ad;color:#302d27;border:2px solid #f3d5ad;padding:14px 23px;font-size:.9rem;line-height:1.5;font-weight:700;min-height:52px}
-.sponsor-link:hover{background:#fff8ee;border-color:#fff8ee}
-.sponsor-link:focus-visible,.sponsor-disclosure:focus-visible{outline:3px solid #fff8ee;outline-offset:5px}
+.sponsor-panel:hover .sponsor-link{background:#fff8ee;border-color:#fff8ee}
+.sponsor-panel:focus-visible,.sponsor-disclosure:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .sponsor-note{display:block;font-size:.68rem;line-height:1.5;margin-top:7px;color:#f0e7d9}
+.sponsor-footer{text-align:right;padding:0 2px;line-height:1.4}
 .sponsor-disclosure{display:inline-block;font-size:.72rem;line-height:1.5;text-decoration:underline;text-underline-offset:3px;margin-top:10px}
 .sponsor-top{max-width:1360px;margin:24px auto 0;width:calc(100% - 80px)}
-.sponsor-mid{max-width:1120px;margin:0 auto 42px;width:calc(100% - 80px);border-left:8px solid #b28a4c;padding:34px 40px}
+.sponsor-mid{max-width:1120px;margin:0 auto 42px;width:calc(100% - 80px)}
+.sponsor-mid .sponsor-panel{border-left:8px solid #b28a4c;padding:34px 40px}
 .sponsor-mid .sponsor-title{font-size:2.1rem}
-@media(max-width:760px){.sponsor-top,.sponsor-mid{width:calc(100% - 48px)}.sponsor-top{margin-top:20px}.sponsor-mid{margin-bottom:26px}.sponsor-panel{display:block;padding:23px 22px}.sponsor-panel .sponsor-title,.sponsor-mid .sponsor-title{font-size:1.7rem}.sponsor-actions{margin-top:18px;text-align:left}.sponsor-link{width:100%;font-size:.85rem}.sponsor-note{font-size:.68rem}.sponsor-panel .sponsor-copy{font-size:.79rem}.sponsor-mid{border-left-width:6px}}
-@media print{.sponsor-panel{display:none!important}}
+@media(max-width:760px){.sponsor-top,.sponsor-mid{width:calc(100% - 48px)}.sponsor-top{margin-top:20px}.sponsor-mid{margin-bottom:26px}.sponsor-panel,.sponsor-mid .sponsor-panel{display:block;padding:23px 22px}.sponsor-panel .sponsor-title,.sponsor-mid .sponsor-title{font-size:1.7rem}.sponsor-actions{margin-top:18px;text-align:left}.sponsor-link{width:100%;font-size:.85rem}.sponsor-note{font-size:.68rem}.sponsor-panel .sponsor-copy{font-size:.79rem}.sponsor-mid .sponsor-panel{border-left-width:6px}}
+@media print{.sponsor-placement{display:none!important}}
