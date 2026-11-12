@@ -1,0 +1,10 @@
+.ad-redirect-notice{position:sticky;top:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff1cc;color:#302d27;border-bottom:3px solid #946b26;padding:18px max(24px,calc((100vw - 1120px)/2));box-shadow:0 4px 12px #302d2712}
+.ad-redirect-notice[hidden]{display:none!important}
+.ad-redirect-notice strong{display:block;font-size:.9rem;line-height:1.4;margin-bottom:5px}
+.ad-redirect-notice p{margin:0;font-size:.85rem;line-height:1.6;max-width:760px}
+.ad-redirect-notice .ad-redirect-label{text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;font-weight:700;display:block;margin-bottom:5px}
+.ad-redirect-notice button{flex:0 0 auto;border:2px solid #302d27;background:#302d27;color:#fff8ee;font-size:.85rem;line-height:1.4;font-weight:700;padding:13px 20px;min-height:48px;cursor:pointer}
+.ad-redirect-notice button:hover{background:#51483b}
+.ad-redirect-notice button:focus-visible{outline:3px solid #302d27;outline-offset:4px}
+@media(max-width:760px){.ad-redirect-notice{display:block;padding:15px 24px}.ad-redirect-notice button{margin-top:12px;width:100%}.ad-redirect-notice p{font-size:.8rem}}
+@media print{.ad-redirect-notice{display:none!important}}
